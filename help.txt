@@ -1,0 +1,9 @@
+
+hover dropdowns
+https://www.w3schools.com/howto/howto_css_dropdown.asp
+
+for forbidden pages:
+    /*text-decoration:line-through;*/
+    
+
+    countdown till school ends
