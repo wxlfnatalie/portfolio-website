@@ -152,15 +152,31 @@ a {
 .gallery {
 	display: flex;
 	padding: 2px;
-	transition: .3s;
-	
-	&:hover &__image {
-		filter: grayscale(1);
-	}
+	transition: 0.3s;
+}
 
-    &__column {
-        display: flex;
-        flex-direction: column;
-        width: 25px;
-    }
+.gallery__image {
+    border: 2px solid white;
+}
+
+.gallery:hover .gallery__image {
+	filter: grayscale(0);
+}
+
+.gallery__column {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    width: 25%;
+}
+
+.gallery__image:hover {
+    filter: grayscale(1);
+    transform: scale(1.1);
+}
+
+.gallery__image {
+    display: block;
+    width: 100%;
+    transition: 0.3s;
 }
